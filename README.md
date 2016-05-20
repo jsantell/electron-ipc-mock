@@ -17,7 +17,7 @@ npm install electron-ipc-mock
 ## Usage
 
 ```js
-const { ipcRenderer, ipcMain } = require('electron-ipc-mock');
+const { ipcRenderer, ipcMain } = require('electron-ipc-mock')();
 
 ipcMain.on('request', function (e, ...args) {
   console.log(args[0]); // 'hello'
