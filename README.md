@@ -24,7 +24,7 @@ ipcMain.on('request', function (e, ...args) {
   e.sender.send('response', 'world');
 });
 
-ipcRenderer.on('response', function (...args) {
+ipcRenderer.on('response', function (e, ...args) {
   console.log(args[0]); // 'world'
 });
 
