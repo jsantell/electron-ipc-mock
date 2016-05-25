@@ -1,6 +1,6 @@
 {
   "name": "electron-ipc-mock",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mocked electron ipc communication module",
   "main": "dist/index.js",
   "scripts": {
