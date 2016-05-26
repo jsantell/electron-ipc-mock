@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "babel lib --presets babel-preset-es2015 --out-dir dist",
-    "test": "mocha --reporter spec --ui bdd",
+    "test": "npm run build && mocha --reporter spec --ui bdd",
     "prepublish": "npm run build"
   },
   "repository": {
